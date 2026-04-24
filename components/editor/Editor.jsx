@@ -45,7 +45,7 @@ export default function Editor() {
           className="w-full text-4xl font-bold bg-transparent outline-none mb-6 placeholder-gray-500"
         />
 
-        <div className="bg-[#311950] p-6 rounded-xl border border-gray-700 min-h-[500px]">
+        <div className="bg-[#311950] p-6 rounded-xl border border-gray-700 min-h-125">
           <EditorContent editor={editor} />
         </div>
 
