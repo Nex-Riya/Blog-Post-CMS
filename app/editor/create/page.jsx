@@ -1,9 +1,9 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import TopBar from "@/components/editor/TopBar";
+import TopBar from "@/components/admin/editor/TopBar";
 
-const Editor = dynamic(() => import("@/components/editor/Editor"), {
+const Editor = dynamic(() => import("@/components/admin/editor/Editor"), {
   ssr: false,
 });
 
