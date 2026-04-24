@@ -1,15 +1,22 @@
-import Navbar from "@/components/navbar.jsx";
-import Sidebar from "@/components/sidebar.jsx";
-import AdminDashboard from "./dashboard/page.jsx";
+"use client";
 
-export default function AdminLayout() {
+import Sidebar from "@/components/sidebar";
+import DashboardNavbar from "@/components/dashboardnav";
+
+export default function AdminLayout({ children }) {
   return (
-    <>
-      <Navbar />
-      <div className="flex">
-        <Sidebar />
-        <AdminDashboard />
+    <div className="flex h-screen bg-[#0B0F1A] text-white">
+      
+      <Sidebar />
+
+      <div className="flex-1 flex flex-col">
+        <DashboardNavbar />
+
+        <main className="flex-1 overflow-y-auto p-6">
+          {children}
+        </main>
       </div>
-    </>
+
+    </div>
   );
 }
