@@ -1,6 +1,6 @@
-import PostsHeader from "@/components/posts/PostsHeader";
-import FiltersBar from "@/components/posts/FiltersBar";
-import PostsTable from "@/components/posts/PostsTable";
+import PostsHeader from "@/components/admin/posts/PostsHeader";
+import FiltersBar from "@/components/admin/posts/FiltersBar";
+import PostsTable from "@/components/admin/posts/PostsTable";
 
 export default function PostsPage() {
   return (

@@ -6,7 +6,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/admin/ui/avatar"
 
 export default function DashboardNavbar() {
   const pathname = usePathname();
@@ -17,7 +17,6 @@ export default function DashboardNavbar() {
     year: "numeric",
   });
 
-  // 🔥 Dynamic Title Logic
   let title = "Dashboard";
   let subtitle = "Here’s what’s happening with your blog today.";
 

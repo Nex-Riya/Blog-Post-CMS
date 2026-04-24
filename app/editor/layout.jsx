@@ -4,7 +4,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 
 const Editor = dynamic(
-  () => import("@/components/editor/Editor"),
+  () => import("@/components/admin/editor/Editor"),
   { ssr: false }
 );
 
