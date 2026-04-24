@@ -8,7 +8,6 @@ export default function Toolbar({ editor }) {
     <div className="flex flex-col gap-4">
 
       <div>
-        <p className="text-xs text-gray-400 mb-2">TEXT</p>
 
         <button className={btn} onClick={() => editor.chain().focus().toggleBold().run()}>
           <b>B</b> Bold
@@ -39,7 +38,7 @@ export default function Toolbar({ editor }) {
         </button>
       </div>
 
-      <div>
+      {/* <div>
         <p className="text-xs text-gray-400 mb-2">LISTS</p>
 
         <button className={btn} onClick={() => editor.chain().focus().toggleBulletList().run()}>
@@ -49,9 +48,9 @@ export default function Toolbar({ editor }) {
         <button className={btn} onClick={() => editor.chain().focus().toggleOrderedList().run()}>
           1. Numbered List
         </button>
-      </div>
+      </div> */}
 
-      <div>
+      {/* <div>
         <p className="text-xs text-gray-400 mb-2">BLOCK</p>
 
         <button className={btn} onClick={() => editor.chain().focus().toggleBlockquote().run()}>
@@ -61,7 +60,7 @@ export default function Toolbar({ editor }) {
         <button className={btn} onClick={() => editor.chain().focus().toggleCodeBlock().run()}>
           {"</>"} Code Block
         </button>
-      </div>
+      </div> */}
 
       <div>
         <p className="text-xs text-gray-400 mb-2">HISTORY</p>
