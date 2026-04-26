@@ -40,7 +40,7 @@ export default function DashboardNavbar() {
 
       <div className="flex items-center gap-4">
         
-        <div className="flex items-center bg-white/5 border border-white/10 rounded-lg px-3 py-2 w-[220px]">
+        <div className="flex items-center bg-white/5 border border-white/10 rounded-lg px-3 py-2 w-55">
           <Search className="w-4 h-4 text-gray-400" />
           <input
             type="text"
