@@ -26,13 +26,8 @@ export default function Sidebar() {
     },
     {
       name: "Create Post",
-      href: "/admin/create",
+      href: "/editor/create",
       icon: PlusSquare,
-    },
-    {
-      name: "Media",
-      href: "/admin/media",
-      icon: Image,
     },
     {
       name: "Settings",
