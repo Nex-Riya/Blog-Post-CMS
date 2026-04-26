@@ -6,7 +6,7 @@ import TopBar from "@/components/admin/editor/TopBar";
 const Editor = dynamic(() => import("@/components/admin/editor/Editor"), {
   ssr: false,
 });
-
+// main editor file to create post
 export default function CreatePost() {
   return (
     <div className="h-screen flex flex-col bg-black text-white">
