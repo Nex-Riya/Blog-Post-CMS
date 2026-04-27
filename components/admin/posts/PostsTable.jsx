@@ -46,17 +46,16 @@ export default function PostsTable() {
       <table className="w-full text-left">
         
         <thead className="bg-white/5 text-gray-400 text-sm">
-          <tr>
-            <th className="p-3"></th>
-            <th className="p-3">Post</th>
-            <th className="p-3">Author</th>
-            <th className="p-3">Category</th>
-            <th className="p-3">Status</th>
-            <th className="p-3">Date</th>
-            <th className="p-3">Views</th>
-            <th className="p-3">Actions</th>
-          </tr>
-        </thead>
+  <tr>
+    <th className="p-3"></th>
+    <th className="p-3">Post</th>
+    <th className="p-3">Author</th>
+    <th className="p-3">Category</th>
+    <th className="p-3">Status</th>
+    <th className="p-3">Date</th>
+    <th className="p-3">Actions</th>
+  </tr>
+</thead>
 
         <tbody>
           {posts.map((post) => (

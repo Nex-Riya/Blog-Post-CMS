@@ -1,5 +1,9 @@
 "use client";
 
+
+
+
+
 export default function AnalyticsChart() {
   return (
     <div className="bg-white/5 border border-white/10 rounded-xl p-5 shadow-[1px_1px_10px_1px_#800fd1]">
